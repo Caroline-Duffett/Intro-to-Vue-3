@@ -1,1 +1,17 @@
-const product = 'Socks'
+
+//ES6 shorthand:
+const app = Vue.createApp({
+  data() {
+    return {
+      product: 'Socks'
+    }
+  }
+})
+
+  // const app = Vue.createApp({
+  //   data: function() {
+  //     return {
+  //       product: 'Socks'
+  //     }
+  //   }
+  // })
