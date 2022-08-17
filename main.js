@@ -3,7 +3,8 @@
 const app = Vue.createApp({
   data() {
     return {
-      product: 'Socks'
+      product: 'Socks',
+      description: 'Mid-calf, very warm, made out of wool'
     }
   }
 })
